@@ -11,9 +11,9 @@ Edita → `git add practica-commits.md` → `git commit -m "..."`
 **Commit:** `feat(perfil): agrega presentación de [tu nombre]`
 
 ```
-Nombre     : 
-GitHub     : 
-Algo sobre mí : 
+Nombre     : Gael
+GitHub     : Gaelzon
+Algo sobre mí : Me gusta todo lo relacionado a la electrónica y tengo una banda de rock
 ```
 
 ---
@@ -23,7 +23,10 @@ Algo sobre mí :
 **Qué hacer:** Agrega al menos tres cosas que sabes hacer (no tienen que ser de programación).  
 **Commit:** `feat(habilidades): agrega lista de habilidades`
 
-- 
+- Toco la guitarra y compongo musica
+- Tengo algo de habilidad motriz fina
+- Se soldar
+- Aprendo con facilidad temas relacionados a matemáticas
 
 ---
 
@@ -33,9 +36,9 @@ Algo sobre mí :
 **Commit:** `fix(convenciones): corrige errores en descripción de Git`
 
 > Git es un sistema de control de versiones creado en 2005 por Linus Torvalds
-> para reemplazar a SubVersion, que era de código cerrado y dejó de darse gratis al proyecto Linux.
+> para reemplazar a BitKeeper, que era de licencia y dejó de darse gratis al proyecto Linux.
 > Cada commit guarda una fotografía de todos los archivos del repositorio en ese momento,
-> identificada con un hash MD5 único. Para subir cambios al servidor usamos `git pull`.
+> identificada con un hash SHA-1 único. Para subir cambios al servidor usamos `git push`.
 
 ---
 
@@ -44,9 +47,9 @@ Algo sobre mí :
 **Qué hacer:** Escribe tres cosas concretas que aprendiste en esta sesión.  
 **Commit:** `docs(aprendizaje): agrega notas de la sesión`
 
-1. 
-2. 
-3. 
+1. La historia del origen de git, creado por el mismo creador de linux (Linus Traveus) y con motivaciones similares a la creación de linux
+2. Que la rama main era antes llamada master, y se cambio por razones historicas controversiales
+3. Que al iniciar un repo localmente me manda a master xd
 
 ---
 
