@@ -23,7 +23,7 @@
         else
             printf("Eres menor de edad\n");
 
-        return;
+        return 0;
     }
     </code>
     </pre>
@@ -45,6 +45,18 @@
     </pre>
     <p>Es la principar de nuestra función, donde se ejecuta todo el programa</p>
     <p>Nos devuelve un valor <strong>void</strong> y devuelve un valor entero</p>
+    <hr>
+    <p>Declaramos una variable de tipo entero</p><code>int edad;</code>
+    <p>Solicitamos al usuario ingresar su edad</p><code>printf("Ingresa tu edad");</code>
+    <p>Guardamos la edad en la variable creada</p><code>scanf("%i", &edad);</code>
+    <hr>
+    <p>El condicional</p><code>if (edad >= 18)</code>
+    <p>nos comprueba si la edad es mayor a 18 años</p>
+    <p>Si es mayor a 18 ejecuta: </p><pre><code>printf("Eres mayor de edad\n");</code></pre>
+    <p>Sino, ejecuta: </p><pre><code>printf("Eres menor de edad\n");</code></pre>
+    <hr>
+    <p>Finalmente ejecuta la siguente linea para indicar que el programa termino con exito</p>
+    <code>return 0;</code>
 
 </body>
 </html>
