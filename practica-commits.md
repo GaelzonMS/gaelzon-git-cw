@@ -74,11 +74,11 @@ Algo sobre mí : Me gusta todo lo relacionado a la electrónica y tengo una band
 **Qué hacer:** Cambia `[ ]` por `[x]` en cada punto que ya dominas.  
 **Commit:** `chore(practica): actualiza checklist de avance`
 
-- [ ] Hice `git init` sin ayuda
-- [ ] Entiendo para qué sirve el Staging Area
+- [x] Hice `git init` sin ayuda
+- [x] Entiendo para qué sirve el Staging Area
 - [ ] Escribí un mensaje de commit con formato Conventional Commits
-- [ ] Puedo ver el historial con `git log`
-- [ ] Completé todos los niveles de esta práctica
+- [x] Puedo ver el historial con `git log`
+- [x] Completé todos los niveles de esta práctica
 
 ---
 
