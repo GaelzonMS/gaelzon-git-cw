@@ -60,12 +60,12 @@ Algo sobre mí : Me gusta todo lo relacionado a la electrónica y tengo una band
 
 | Comando | ¿Qué hace? |
 |---------|------------|
-| `git init` | | Inicia un repositorio local en la carpeta actual
-| `git status` | | Muestra el rastro de los archivos (staging area)
-| `git add .` | | Inicia con el rastro de un archivo modificado o creado
-| `git commit -m "..."` | | Agrega un commit con el mensaje entre comillas
-| `git log --oneline` | | Muestra el historial de commits y sus nombres
-| `git push` | | Manda los commits realizados al repositorio remoto
+| `git init` | Inicia un repositorio local en la carpeta actual |
+| `git status` | Muestra el rastro de los archivos (staging area) |
+| `git add .` | Inicia con el rastro de un archivo modificado o creado |
+| `git commit -m "..."` | Agrega un commit con el mensaje entre comillas |
+| `git log --oneline` | Muestra el historial de commits y sus nombres | 
+| `git push` | Manda los commits realizados al repositorio remoto | 
 
 ---
 
