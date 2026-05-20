@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Apunte de etiqueas - GaelzonMS">
+    <meta name="Description" content="Actividad de hacer una tabla con las etiquetas aprendidas">
+    
+    <title>Apunte de etiqueas</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Etiquetas HTML - mi referencia</caption>
+        <colgroup>
+            <col>
+        </colgroup>
+        <thead>
+            <tr>
+                <th scope="col">Etiqueta</th>
+                <th scope="col">¿Para qué sirve?</th>
+                <th scope="col">Ejemplo mínimo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&lt;main&gt;</td>
+                <td>Es el espacio donde se coloca el contenido principal</td>
+                <td>
+                    <pre><code>
+                        
+&lt;main&gt;
+    &lt;section&gt;Items de la seccion&lt;/section&gt;
+    &lt;section&gt;Items de la seccion&lt;/section&gt;
+&lt;/main&gt;
+                        
+                    </code></pre>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;ul&gt;</td>
+                <td>Crea una lista desordenada</td>
+                <td>
+                    <pre><code>
+&lt;h2&gt;Lista desordenada&lt;/h2&gt;
+&lt;ul&gt;
+    &lt;li&gt;Elemento 1&lt;/li&gt;
+    &lt;li&gt;Elemento 2&lt;/li&gt;
+    &lt;li&gt;Elemento 3&lt;/li&gt;
+&lt;/ul&gt;
+                    </code></pre>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;li&gt;</td>
+                <td>Es un item de una lista</td>
+                <td>
+                    <pre><code>
+&lt;h2&gt;Lista ordenada&lt;/h2&gt;
+&lt;ol&gt;
+    &lt;li&gt;Elemento generico de lista&lt;/li&gt;
+&lt;/ol&gt;
+                    </code></pre>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;code&gt;</td>
+                <td>Sirve para poner un codigo</td>
+                <td>
+                    <pre><code>
+&lt;code&gt;
+    printf("hola mundo");
+&lt;/code&gt;
+                    </code></pre>
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;section&gt;</td>
+                <td>Sirve para crear una sección temática</td>
+                <td>
+                    <pre><code>
+                        
+&lt;h2&gt;Ejemplo de seccion&lt;/h2&gt;
+&lt;section&gt;
+    &lt;div&gt;Contenedor 1&lt;/div&gt;
+    &lt;div&gt;Contenedor 2&lt;/div&gt;
+&lt;/section&gt;
+                        
+                    </code></pre>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
