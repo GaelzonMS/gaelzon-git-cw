@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Semanticas - Gael Martinez Santiago">
+    <meta name="Description" content="Ejemplos de etiquetas semanticas">
+    <title>Document</title>
+</head>
+<body>
+
+    <header id="menu">
+        <h1>Sistema de inscripciones</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li> <!-- El # sirve para redirigir a una parte del html-->
+                <li><a href="contaco.html">Contacto</a></li>
+                <li><a href="#quimica">Quimica</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+
+        <section id="Acerca">
+            <h2>¿Qué es este sistema?</h2>
+            <p>Sistema de inscripciones a talleres extracurriculares</p>
+            <p>Disponible para todos los alumnos</p>
+        </section>
+
+        <section id="talleres">
+            <h2>Talleres disponibles</h2>
+            <article>
+                <h3>Programacion web</h3>
+                <p>Lunes y miércoles 12:00 a 16:00</p>
+                <p>HTML, CSS y JavaScript</p>
+            </article>
+
+            <article>
+                <h3>Matemáticas</h3>
+                <p>Horarios</p>
+                <ul>
+                    <li>Lunes: 12:50 a 13:40</li>
+                    <li>Miercoles: 12:50 a 13:40</li>
+                    <li>Viernes: 13:40 a 14:30</li>
+                </ul>
+            </article>
+            <article id="quimica">
+                <h3>Química</h3>
+                <p>Horarios: Lunes 12:00 a 14:30</p>
+            </article>
+
+            <p><a href="#menu">Regresar al menu de selecciones</a></p>
+        </section>
+
+    </main>
+</body>
+</html>
