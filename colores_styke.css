@@ -1,0 +1,26 @@
+table, th, td {
+    border: 1px solid black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+}
+
+#danko{
+    background-color: green;
+}
+
+#liz{
+    background-color: purple;
+}
+
+#gael{
+    background-color: black;
+    color: white;
+}
+
+.names{
+    background-color: #dccfff;
+}
+
+.encabezados{
+    background-color: #a280ff;
+}
